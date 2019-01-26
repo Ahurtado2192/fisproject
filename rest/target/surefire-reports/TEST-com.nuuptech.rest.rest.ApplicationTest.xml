@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.nuuptech.rest.rest.ApplicationTest" time="10.171" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_191-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/Alexis/Spring/rest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="MX"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/Alexis/Spring/rest"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_191-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/opt/apache-maven-3.5.4-bin/apache-maven-3.5.4/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/opt/apache-maven-3.5.4-bin/apache-maven-3.5.4/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.19.8-300.fc29.x86_64"/>
+    <property name="library.jansi.path" value="/opt/apache-maven-3.5.4-bin/apache-maven-3.5.4/lib/jansi-native"/>
+    <property name="user.home" value="/home/Alexis"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Alexis"/>
+    <property name="java.class.path" value="/opt/apache-maven-3.5.4-bin/apache-maven-3.5.4/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/java/jdk1.8.0_191-amd64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher fabric8:deploy"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_191-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_191-amd64/jre/lib/resources.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/rt.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/jsse.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/jce.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/charsets.jar:/usr/java/jdk1.8.0_191-amd64/jre/lib/jfr.jar:/usr/java/jdk1.8.0_191-amd64/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/opt/apache-maven-3.5.4-bin/apache-maven-3.5.4"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="newOrderTest" classname="com.nuuptech.rest.rest.ApplicationTest" time="10.171">
+    <failure message="expected:&lt;[tru]e&gt; but was:&lt;[fals]e&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[tru]e> but was:<[fals]e>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.nuuptech.rest.rest.ApplicationTest.newOrderTest(ApplicationTest.java:57)
+]]></failure>
+    <system-out><![CDATA[18:02:19.943 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.nuuptech.rest.rest.ApplicationTest]
+18:02:19.951 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:02:19.987 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:02:20.023 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.nuuptech.rest.rest.ApplicationTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:02:20.041 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nuuptech.rest.rest.ApplicationTest], using SpringBootContextLoader
+18:02:20.051 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.nuuptech.rest.rest.ApplicationTest]: class path resource [com/nuuptech/rest/rest/ApplicationTest-context.xml] does not exist
+18:02:20.051 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.nuuptech.rest.rest.ApplicationTest]: class path resource [com/nuuptech/rest/rest/ApplicationTestContext.groovy] does not exist
+18:02:20.052 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.nuuptech.rest.rest.ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:02:20.057 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.nuuptech.rest.rest.ApplicationTest]: ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:02:20.118 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.nuuptech.rest.rest.ApplicationTest]
+18:02:20.136 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:02:20.138 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:02:20.139 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:02:20.160 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/nuuptech/rest/rest/] to resources [URL [file:/home/Alexis/Spring/rest/target/test-classes/com/nuuptech/rest/rest/], URL [file:/home/Alexis/Spring/rest/target/classes/com/nuuptech/rest/rest/]]
+18:02:20.161 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/Alexis/Spring/rest/target/test-classes/com/nuuptech/rest/rest]
+18:02:20.161 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/Alexis/Spring/rest/target/test-classes/com/nuuptech/rest/rest] for files matching pattern [/home/Alexis/Spring/rest/target/test-classes/com/nuuptech/rest/rest/*.class]
+18:02:20.167 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/Alexis/Spring/rest/target/classes/com/nuuptech/rest/rest]
+18:02:20.167 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/Alexis/Spring/rest/target/classes/com/nuuptech/rest/rest] for files matching pattern [/home/Alexis/Spring/rest/target/classes/com/nuuptech/rest/rest/*.class]
+18:02:20.169 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/nuuptech/rest/rest/*.class] to resources [file [/home/Alexis/Spring/rest/target/test-classes/com/nuuptech/rest/rest/ApplicationTest$1.class], file [/home/Alexis/Spring/rest/target/test-classes/com/nuuptech/rest/rest/ApplicationTest.class], file [/home/Alexis/Spring/rest/target/classes/com/nuuptech/rest/rest/Application$RestApi.class], file [/home/Alexis/Spring/rest/target/classes/com/nuuptech/rest/rest/Application.class], file [/home/Alexis/Spring/rest/target/classes/com/nuuptech/rest/rest/Book.class], file [/home/Alexis/Spring/rest/target/classes/com/nuuptech/rest/rest/Order.class], file [/home/Alexis/Spring/rest/target/classes/com/nuuptech/rest/rest/OrderService.class]]
+18:02:20.282 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/Alexis/Spring/rest/target/classes/com/nuuptech/rest/rest/Application.class]
+18:02:20.285 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.nuuptech.rest.rest.Application for test class com.nuuptech.rest.rest.ApplicationTest
+18:02:20.293 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.nuuptech.rest.rest.ApplicationTest]: using defaults.
+18:02:20.301 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+18:02:20.366 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@19d37183, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1a0dcaa, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3bd40a57, org.springframework.test.context.support.DirtiesContextTestExecutionListener@fdefd3f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@d83da2e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@a4102b8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@11dc3715, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@69930714, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7a52f2a2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@78047b92, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@8909f18, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@79ca92b9]
+18:02:20.374 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.nuuptech.rest.rest.ApplicationTest]
+18:02:20.376 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.nuuptech.rest.rest.ApplicationTest]
+18:02:20.380 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.nuuptech.rest.rest.ApplicationTest]
+18:02:20.381 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:02:20.382 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:02:20.384 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.nuuptech.rest.rest.ApplicationTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:02:20.385 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nuuptech.rest.rest.ApplicationTest], using SpringBootContextLoader
+18:02:20.387 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.nuuptech.rest.rest.ApplicationTest]: class path resource [com/nuuptech/rest/rest/ApplicationTest-context.xml] does not exist
+18:02:20.389 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.nuuptech.rest.rest.ApplicationTest]: class path resource [com/nuuptech/rest/rest/ApplicationTestContext.groovy] does not exist
+18:02:20.390 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.nuuptech.rest.rest.ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:02:20.390 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.nuuptech.rest.rest.ApplicationTest]: ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:02:20.439 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.nuuptech.rest.rest.ApplicationTest]
+18:02:20.440 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:02:20.440 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:02:20.440 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:02:20.441 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.nuuptech.rest.rest.Application for test class com.nuuptech.rest.rest.ApplicationTest
+18:02:20.448 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.nuuptech.rest.rest.ApplicationTest]: using defaults.
+18:02:20.459 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+18:02:20.470 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1677d1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@48fa0f47, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6ac13091, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5e316c74, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d2a209c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@75329a49, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@161479c6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4313f5bc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7f010382, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1e802ef9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2b6faea6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@778d1062]
+18:02:20.471 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.nuuptech.rest.rest.ApplicationTest]
+18:02:20.473 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.nuuptech.rest.rest.ApplicationTest]
+18:02:20.475 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.nuuptech.rest.rest.ApplicationTest]
+18:02:20.475 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.nuuptech.rest.rest.ApplicationTest]
+18:02:20.486 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@433d61fb testClass = ApplicationTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5c909414 testClass = ApplicationTest, locations = '{}', classes = '{class com.nuuptech.rest.rest.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@6121c9d6, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@eafc191, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2a70a3d8], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+18:02:20.492 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.nuuptech.rest.rest.ApplicationTest]
+18:02:20.493 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.nuuptech.rest.rest.ApplicationTest]
+18:02:20.495 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@433d61fb testClass = ApplicationTest, testInstance = com.nuuptech.rest.rest.ApplicationTest@4690b489, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5c909414 testClass = ApplicationTest, locations = '{}', classes = '{class com.nuuptech.rest.rest.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@6121c9d6, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@eafc191, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2a70a3d8], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]].
+18:02:20.751 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:02:20.751 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:02:20.752 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:02:20.774 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
+18:02:20.787 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.7.RELEASE)
+
+2019-01-25 18:02:21.787  INFO 5817 --- [           main] com.nuuptech.rest.rest.ApplicationTest   : Starting ApplicationTest on localhost.localdomain with PID 5817 (started by Alexis in /home/Alexis/Spring/rest)
+2019-01-25 18:02:21.789  INFO 5817 --- [           main] com.nuuptech.rest.rest.ApplicationTest   : No active profile set, falling back to default profiles: default
+2019-01-25 18:02:21.842  INFO 5817 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@609db546: startup date [Fri Jan 25 18:02:21 CST 2019]; root of context hierarchy
+2019-01-25 18:02:24.215  INFO 5817 --- [           main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [spring/camel-context.xml]
+2019-01-25 18:02:26.057  INFO 5817 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-25 18:02:26.315  INFO 5817 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$9c335548] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-25 18:02:26.354  INFO 5817 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7a098f29] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-25 18:02:28.135  INFO 5817 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+2019-01-25 18:02:28.160  INFO 5817 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2019-01-25 18:02:28.170  INFO 5817 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.53
+2019-01-25 18:02:28.344  INFO 5817 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-25 18:02:28.344  INFO 5817 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6505 ms
+2019-01-25 18:02:28.711  INFO 5817 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'CamelServlet' to [/camel-rest-sql/*]
+2019-01-25 18:02:28.713  INFO 5817 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-25 18:02:28.717  INFO 5817 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2019-01-25 18:02:28.718  INFO 5817 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-25 18:02:28.718  INFO 5817 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-25 18:02:28.718  INFO 5817 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-25 18:02:28.719  INFO 5817 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-25 18:02:28.719  INFO 5817 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2019-01-25 18:02:28.719  INFO 5817 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-01-25 18:02:29.728  INFO 5817 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@609db546: startup date [Fri Jan 25 18:02:21 CST 2019]; root of context hierarchy
+2019-01-25 18:02:29.838  INFO 5817 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-25 18:02:29.840  INFO 5817 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-25 18:02:29.914  INFO 5817 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 18:02:29.914  INFO 5817 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 18:02:30.008  INFO 5817 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 18:02:30.824  INFO 5817 --- [           main] o.a.c.i.converter.DefaultTypeConverter   : Loaded 196 type converters
+2019-01-25 18:02:31.572  INFO 5817 --- [           main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/home/Alexis/Spring/rest/target/classes/schema.sql]
+2019-01-25 18:02:31.582  INFO 5817 --- [           main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/home/Alexis/Spring/rest/target/classes/schema.sql] in 9 ms.
+2019-01-25 18:02:31.990  INFO 5817 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-25 18:02:31.992  INFO 5817 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-25 18:02:31.993  INFO 5817 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-01-25 18:02:31.994  INFO 5817 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-25 18:02:31.995  INFO 5817 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2019-01-25 18:02:31.997  INFO 5817 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-25 18:02:31.998  INFO 5817 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-25 18:02:32.000  INFO 5817 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-25 18:02:32.001  INFO 5817 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2019-01-25 18:02:32.007  INFO 5817 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-01-25 18:02:32.008  INFO 5817 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-25 18:02:32.009  INFO 5817 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-25 18:02:32.010  INFO 5817 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-25 18:02:32.564  INFO 5817 --- [           main] o.a.camel.spring.boot.RoutesCollector    : Loading additional Camel XML routes from: classpath:camel/*.xml
+2019-01-25 18:02:32.566  INFO 5817 --- [           main] o.a.camel.spring.boot.RoutesCollector    : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2019-01-25 18:02:32.567  INFO 5817 --- [           main] o.a.camel.spring.SpringCamelContext      : Apache Camel 2.18.1.redhat-000032 (CamelContext: CamelRestSql) is starting
+2019-01-25 18:02:32.568  INFO 5817 --- [           main] o.a.c.m.ManagedManagementStrategy        : JMX is enabled
+2019-01-25 18:02:32.738  INFO 5817 --- [           main] o.a.c.i.DefaultRuntimeEndpointRegistry   : Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+2019-01-25 18:02:33.012  INFO 5817 --- [           main] o.a.camel.spring.SpringCamelContext      : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-01-25 18:02:33.136  INFO 5817 --- [           main] o.a.camel.spring.SpringCamelContext      : Route: route2 started and consuming from: direct://getOrder
+2019-01-25 18:02:33.138  INFO 5817 --- [           main] o.a.camel.spring.SpringCamelContext      : Route: route1 started and consuming from: servlet:/order/register?httpMethodRestrict=GET
+2019-01-25 18:02:33.139  INFO 5817 --- [           main] o.a.camel.spring.SpringCamelContext      : Total 2 routes, of which 2 are started.
+2019-01-25 18:02:33.140  INFO 5817 --- [           main] o.a.camel.spring.SpringCamelContext      : Apache Camel 2.18.1.redhat-000032 (CamelContext: CamelRestSql) started in 0.573 seconds
+2019-01-25 18:02:33.213  INFO 5817 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 38491 (http)
+2019-01-25 18:02:33.219  INFO 5817 --- [           main] com.nuuptech.rest.rest.ApplicationTest   : Started ApplicationTest in 12.42 seconds (JVM running for 13.837)
+]]></system-out>
+  </testcase>
+</testsuite>

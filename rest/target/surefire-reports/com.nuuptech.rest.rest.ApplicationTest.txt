@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.nuuptech.rest.rest.ApplicationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.012 sec <<< FAILURE! - in com.nuuptech.rest.rest.ApplicationTest
+newOrderTest(com.nuuptech.rest.rest.ApplicationTest)  Time elapsed: 10.171 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[tru]e> but was:<[fals]e>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.nuuptech.rest.rest.ApplicationTest.newOrderTest(ApplicationTest.java:57)
+

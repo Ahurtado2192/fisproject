@@ -1,0 +1,15 @@
+---
+apiVersion: "v1"
+kind: "List"
+items:
+- apiVersion: "v1"
+  kind: "ImageStream"
+  metadata:
+    name: "rest"
+  spec:
+    tags:
+    - from:
+        kind: "ImageStreamImage"
+        name: "rest@sha256:1cc3a35826de5da5d0feb538c5c0614122ec50a431854d27b83dc65a7363bdf5"
+        namespace: "fusee"
+      name: "latest"

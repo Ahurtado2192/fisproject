@@ -1,0 +1,6 @@
+spec:
+    ports:
+    - name: rest
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
